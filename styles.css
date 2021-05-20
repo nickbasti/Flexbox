@@ -1,0 +1,45 @@
+body {
+  background-color: #ffff;
+}
+
+.navigation-links li {
+  display: inline;
+  cursor: pointer;
+  margin-inline: 50px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+li a:hover {
+  background-color: rgb(247, 10, 10);
+}
+.blogpost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+.blogpost1 {
+  align-self: flex-start;
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 1px solid black;
+}
+.blogpost2 {
+  justify-content: space-around;
+}
+.blogpost3 {
+  align-self: center;
+}
+.blogpost4 {
+  align-self: flex-end;
+}
+.blogpost5 {
+  align-self: stretch;
+  justify-content: center;
+  align-items: center;
+}
